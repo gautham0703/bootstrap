@@ -17,4 +17,9 @@ public class TestController {
     public String getClusterInventoryCount(){
         return "System is up and running";
     }
+
+@GetMapping(value = "/echoing/always")
+    public String getClusterInventoryCount(){
+        return "System is up and running by chaitra";
+    }
 }
